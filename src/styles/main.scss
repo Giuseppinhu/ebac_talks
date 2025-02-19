@@ -1,4 +1,6 @@
 @use 'hero';
+@use 'componets/info-bar';
+@use 'componets/buttons';
 
 
 * {
@@ -7,6 +9,7 @@
     box-sizing: border-box;
     font-family: Roboto, sans-sarif;
     color: #ffff;
+    list-style: none;
 }
 
 .container {
